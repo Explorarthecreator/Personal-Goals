@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f1e8;
+}
+.introduction-section .details h1 span{
+    color: #9B4819;
+}
+.introduction-section .details{
+    text-align: center;
+    margin: auto 0;
+}
+.introduction-section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.goals{
+    background-color: #9B4819;
+    padding: 30px 0;
+}
+.goals h1{
+    text-align: center;
+    color: white;
+}
+.goal-items div{
+    background-color: white;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px 0;
+}
+footer .link{
+    display: flex;
+}
+footer a{
+    padding: 15px;
+    text-decoration: none;
+    color: #f4f1e8;
+    background-color: #9B4819;
+    gap: 9px;
+    border-radius: 15px;
+}
+/* Mobile Phones */
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    .introduction-section .details{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .introduction-section .details h1{
+        /* font-size: 30px; */
+        margin-bottom: 7px;
+    }
+    
+    
+    footer .link{
+        justify-content: center;
+        gap: 9px;
+        padding: 10px 0;
+    }
+    
+}
+
+/* Tablets */
+@media screen and (min-width:481px) and (max-width:768px) {
+    
+    .introduction-section .details{
+        width: 90%;
+        margin: auto;
+    }
+    .introduction-section .details h1{
+        font-size: 40px;
+    }
+    .introduction-section .details p{
+        font-size: 20px;
+    }
+    .introduction-section div{
+        margin: auto;
+    }   
+    .goals{
+        padding: 20px 0;
+    }
+    .goals h1{
+        font-size: 40px;
+    }
+    .goals .goal-items{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .goal-items div{
+        width: 30%;
+    }
+
+    footer .contact{
+        text-align: left;
+        display: flex;
+        width: 80%;
+        margin: auto;
+        padding: 15px;
+        align-items: center;
+    }
+    footer .contact .contact-details{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    footer .contact .contact-details h1{
+        font-size: 40px;
+        color: #9B4819;
+    }
+    footer .link{
+        width: 100%;
+        gap: 15px;
+        margin-top: 5px;
+    }
+    footer .copyright{
+        border-top: 1px solid #9B4819;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .introduction-section{
+        flex-direction: row;
+        height: 60vh;
+    }
+    .introduction-section .details h1{
+        font-size: 50px;
+    }
+    .introduction-section .details p{
+        font-size: 25px;
+        width: 95%;
+    }
+
+    .goals h1{
+        font-size: 50px;
+    }
+    .goals .goal-items{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+    .goal-items div{
+        width: 30%;
+    }
+    footer{
+        font-size: 20px;
+    }
+    footer .contact{
+        text-align: left;
+        display: flex;
+        width: 80%;
+        margin: auto;
+        padding: 15px;
+        align-items: center;
+    }
+    footer .contact .contact-details{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    footer .contact .contact-details h1{
+        font-size: 50px;
+        color: #9B4819;
+    }
+    footer .link{
+        width: 100%;
+        gap: 15px;
+        margin-top: 5px;
+    }
+    footer .copyright{
+        border-top: 1px solid #9B4819;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .introduction-section{
+        flex-direction: row;
+        height: 75vh;
+        width: 90%;
+        margin: auto;
+    }
+    .introduction-section .details h1{
+        font-size: 50px;
+    }
+    .introduction-section .details p{
+        font-size: 25px;
+        width: 95%;
+    }
+
+    .goals h1{
+        font-size: 50px;
+    }
+    .goals .goal-items{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+    .goal-items div{
+        width: 30%;
+    }
+    footer{
+        font-size: 20px;
+    }
+    footer .contact{
+        text-align: left;
+        display: flex;
+        width: 80%;
+        margin: auto;
+        padding: 15px;
+        align-items: center;
+    }
+    footer .contact .contact-details{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    footer .contact .contact-details h1{
+        font-size: 50px;
+        color: #9B4819;
+    }
+    footer .link{
+        width: 100%;
+        gap: 15px;
+        margin-top: 5px;
+    }
+    footer .copyright{
+        border-top: 1px solid #9B4819;
+        padding-top: 10px;
+    }
+}
