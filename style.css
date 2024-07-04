@@ -185,6 +185,11 @@ footer a{
         gap: 15px;
         margin-top: 5px;
     }
+    footer .link a:hover{
+        background-color: transparent;
+        border: 1px solid #9B4819;
+        color: #9B4819;
+    }
     footer .copyright{
         border-top: 1px solid #9B4819;
         padding-top: 10px;
@@ -225,7 +230,7 @@ footer a{
     footer .contact{
         text-align: left;
         display: flex;
-        width: 80%;
+        width: 60%;
         margin: auto;
         padding: 15px;
         align-items: center;
@@ -244,6 +249,11 @@ footer a{
         width: 100%;
         gap: 15px;
         margin-top: 5px;
+    }
+    footer .link a:hover{
+        background-color: transparent;
+        border: 1px solid #9B4819;
+        color: #9B4819;
     }
     footer .copyright{
         border-top: 1px solid #9B4819;
